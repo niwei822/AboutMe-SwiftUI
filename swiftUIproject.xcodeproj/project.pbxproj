@@ -11,6 +11,8 @@
 		D510F19B2874B6810099BA8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D510F19A2874B6810099BA8A /* ContentView.swift */; };
 		D510F19D2874B68A0099BA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D510F19C2874B68A0099BA8A /* Assets.xcassets */; };
 		D510F1A02874B68A0099BA8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D510F19F2874B68A0099BA8A /* Preview Assets.xcassets */; };
+		D510F1A92874BF660099BA8A /* colorchanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D510F1A82874BF660099BA8A /* colorchanger.swift */; };
+		D510F1AB2874DBA50099BA8A /* Aboutme-SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D510F1AA2874DBA50099BA8A /* Aboutme-SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D510F19A2874B6810099BA8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D510F19C2874B68A0099BA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D510F19F2874B68A0099BA8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D510F1A82874BF660099BA8A /* colorchanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorchanger.swift; sourceTree = "<group>"; };
+		D510F1AA2874DBA50099BA8A /* Aboutme-SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Aboutme-SwiftUIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		D510F1972874B6810099BA8A /* swiftUIproject */ = {
 			isa = PBXGroup;
 			children = (
+				D510F1AA2874DBA50099BA8A /* Aboutme-SwiftUIView.swift */,
 				D510F1982874B6810099BA8A /* swiftUIprojectApp.swift */,
-				D510F19A2874B6810099BA8A /* ContentView.swift */,
 				D510F19C2874B68A0099BA8A /* Assets.xcassets */,
 				D510F19E2874B68A0099BA8A /* Preview Content */,
+				D510F1A82874BF660099BA8A /* colorchanger.swift */,
+				D510F19A2874B6810099BA8A /* ContentView.swift */,
 			);
 			path = swiftUIproject;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D510F1AB2874DBA50099BA8A /* Aboutme-SwiftUIView.swift in Sources */,
+				D510F1A92874BF660099BA8A /* colorchanger.swift in Sources */,
 				D510F19B2874B6810099BA8A /* ContentView.swift in Sources */,
 				D510F1992874B6810099BA8A /* swiftUIprojectApp.swift in Sources */,
 			);
